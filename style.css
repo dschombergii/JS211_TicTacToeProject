@@ -21,7 +21,6 @@ td {
 	width:  10rem;
 	text-align:  center;
 	vertical-align:  middle;
-	font-family:  "Comic Sans MS", cursive, sans-serif;
 	font-size:  70px;
 	cursor: pointer;
 }
@@ -30,7 +29,6 @@ table {
 	border-collapse: collapse;
 	vertical-align: middle;
 	position: relative;
-	/* margin-top: 1rem; */
 }
 
 table tr:first-child td {
