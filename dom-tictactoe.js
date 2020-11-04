@@ -403,8 +403,12 @@ const checkForWin = () => {
     document.getElementById('info').style.color = "white"
     return true
   } else if (checkForTie()) {
-    document.getElementById('info').style.backgroundColor = "#11989C"
-    document.getElementById('info').style.color = "white"
+    document.getElementById('updates').innerHTML = "It's a tie! Try again?"
+    document.getElementById('info').style.backgroundColor = "#BF9F47"
+    document.getElementById('info').style.color = 'white'
+    for (let i = 0; 0 <= 9; i++) {
+      document.getElementsByClassName("cell")[i].style.backgroundColor = '#BF9F47'
+    }
     return true
   }
 }
