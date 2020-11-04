@@ -61,11 +61,11 @@ const ticTacToe = (element) => {
           document.getElementById('info').style.backgroundColor = "#11989C"
           document.getElementById('info').style.color = "white"
           document.getElementById('updates').innerHTML = "Your turn!"
-        }, 2200)
+        }, 1800)
         setTimeout(function () {
           updateBoard()
           checkForWin()
-        }, 2300)
+        }, 1900)
       }
     }
   }
